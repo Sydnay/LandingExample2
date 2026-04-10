@@ -113,9 +113,9 @@ export default function ChemistryTutorLanding() {
           <div className="absolute right-[8%] top-[1320px] text-7xl opacity-[0.08]">🧪</div>
         </div>
 
-        <header className="mx-auto grid max-w-[1560px] grid-cols-[auto_1fr_auto] items-center gap-8 px-4 py-6 sm:px-5 lg:px-6 lg:py-7 2xl:max-w-[1720px]">
+        <header className="mx-auto grid max-w-[1560px] grid-cols-[auto_1fr_auto] items-center gap-4 px-4 py-5 sm:gap-8 sm:px-5 sm:py-6 lg:px-6 lg:py-7 2xl:max-w-[1720px]">
           <div className="min-w-0 self-center">
-            <div className="text-[34px] font-black leading-[0.95] tracking-[-0.03em] text-slate-950 sm:text-[40px] lg:text-[46px]">
+            <div className="text-xl font-black leading-[0.95] tracking-[-0.03em] text-slate-950 sm:text-[34px] sm:text-[40px] lg:text-[46px]">
               Репетитор по химии
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function ChemistryTutorLanding() {
           <div className="self-center">
             <button
               onClick={openModal}
-              className="min-h-[62px] rounded-full bg-slate-900 px-8 text-[17px] font-bold text-white shadow-xl shadow-slate-900/15 transition hover:-translate-y-0.5 sm:px-10 lg:min-h-[66px] lg:px-11 lg:text-[18px]"
+              className="min-h-[44px] rounded-full bg-slate-900 px-5 text-[15px] font-bold text-white shadow-xl shadow-slate-900/15 transition hover:-translate-y-0.5 sm:min-h-[62px] sm:px-10 sm:text-[17px] lg:min-h-[66px] lg:px-11 lg:text-[18px]"
             >
               Записаться
             </button>
@@ -199,10 +199,10 @@ export default function ChemistryTutorLanding() {
                   className="h-[460px] w-full rounded-[2rem] object-cover sm:h-[620px] lg:h-[620px] xl:h-[700px]"
                 />
 
-                <div className="absolute inset-x-4 bottom-3 rounded-[2rem] border border-white/60 bg-white/82 p-5 shadow-2xl backdrop-blur-md sm:inset-x-7 sm:bottom-7 sm:p-8">
+                <div className="absolute inset-x-4 bottom-3 rounded-[2rem] border border-white/60 bg-white/82 p-4 shadow-2xl backdrop-blur-md sm:inset-x-7 sm:bottom-7 sm:p-8">
                   <div className="text-[12px] uppercase tracking-[0.24em] text-slate-400 sm:text-sm">Преподаватель</div>
-                  <div className="mt-3 text-[28px] font-black leading-tight text-slate-950 sm:text-3xl">Екатерина Морозова</div>
-                  <p className="mt-3 max-w-2xl text-[15px] leading-7 text-slate-600 sm:mt-4 sm:text-lg sm:leading-8">
+                  <div className="mt-2 text-[20px] font-black leading-tight text-slate-950 sm:mt-3 sm:text-[28px] sm:text-3xl">Екатерина Морозова</div>
+                  <p className="mt-2 hidden max-w-2xl text-[15px] leading-7 text-slate-600 sm:mt-4 sm:block sm:text-lg sm:leading-8">
                     Помогает школьникам и студентам понять химию через систему, визуальные ассоциации и нормальное объяснение без сухого академического перегруза.
                   </p>
                 </div>
@@ -380,7 +380,7 @@ export default function ChemistryTutorLanding() {
               onClick={closeModal}
             />
 
-            <div className="relative z-10 w-full max-w-[680px] overflow-hidden rounded-[2.25rem] border border-white/60 bg-white shadow-[0_40px_120px_-30px_rgba(15,23,42,0.35)]">
+            <div className="relative z-10 w-full max-w-[680px] overflow-y-auto rounded-[2.25rem] border border-white/60 bg-white shadow-[0_40px_120px_-30px_rgba(15,23,42,0.35)] max-h-[90svh]">
               <button
                 onClick={closeModal}
                 className="absolute right-5 top-5 inline-flex h-12 w-12 items-center justify-center rounded-full border border-slate-200 bg-white text-2xl text-slate-500 transition hover:text-slate-900"
